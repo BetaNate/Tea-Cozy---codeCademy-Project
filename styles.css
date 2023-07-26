@@ -1,0 +1,129 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Navbar */
+#menu {
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    margin-bottom: 69px;
+    z-index: 1;
+}
+
+#menu a {
+    text-align: center;
+    padding: 8px;
+    color: #dddddd;
+    text-decoration: underline;
+  }
+
+  .logo {
+    height: 50px;
+}
+
+.right {
+    float: right;
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.left {
+    float: left;
+}
+
+/* Mission Background */
+#mission {
+    display: flex;
+    background-image: url(images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+
+/* Mission Text Banner */
+.bannertext {
+    background-color: black;
+    width: 100%;
+    
+}
+
+.bannertext h2 {
+    margin-top: 7px;
+}
+
+.bannertext h4 {
+    margin-bottom: 7px;
+}
+
+/* Featured Items */
+#featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    margin:auto;
+}
+
+#featured img {
+    max-height: 300px;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+/* Locations Background */
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 20px;
+    height: fit-content;
+}
+
+#locations h2 {
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+/* Containers for retail store addresses */
+.retail-box {
+    display: inline-block;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    opacity: 1;
+    line-height: 3;
+}
+
+#copyright {
+    float: left;
+    margin-left: 20px;
+}
+
